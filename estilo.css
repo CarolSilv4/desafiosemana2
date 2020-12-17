@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+li:hover {
+    background-color: navy;
+}
+#imagem-fundo {
+    background: url("fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: black;
+    padding-top: 20%;
+    font-size: 60px;
+}
+#subtitulo {
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao{
+    color: indigo;
+    border: indigo solid 1px;
+    padding: 10px 20px 10px 20px;
+}
+.icone {
+    width: 200px;
+    height: 200px;
+}
+section{
+    padding: 20px;
+    float: left;
+}
+.destaque {
+    background-color: rgb(245, 245, 245);
+    padding: 20px
+}
+.imgutpc {
+    width: 80%;
+    height: 100px;
+}
+.coluna {
+    float: left;
+    padding:0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.colunaquatro {
+    float: left;
+    text-align: left;
+    padding:0 5%;
+    position: relative;
+    width: 15%;
+}
+.tres {
+    float: left;
+    text-align: left;
+    position: relative;
+    width: 20%;
+    padding: 0 6%
+}
+.dois {
+    text-align: center;
+    background-color: rgb(245, 245, 245) 100%;
+    padding: 20px;
+    padding:0 20%;
+    position: relative;
+    width: 40%;
+}
+#sobre{
+
+}
+footer {
+    background-color:  rgb(245, 245, 245);
+    padding: 0 36%;
+    float: left;
+    text-align: center;
+}
